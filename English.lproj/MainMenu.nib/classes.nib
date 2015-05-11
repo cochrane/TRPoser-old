@@ -1,0 +1,47 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ImageAndTextCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }, 
+        {
+            CLASS = TRLevelView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {document = TRPoserDocument; }; 
+            SUPERCLASS = NSOpenGLView; 
+        }, 
+        {
+            CLASS = TRObjectView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {renderObject = id; }; 
+            SUPERCLASS = NSOpenGLView; 
+        }, 
+        {
+            ACTIONS = {loadNewLevel = id; placeCurrentObject = id; }; 
+            CLASS = TRPoserAppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                documentsController = NSArrayController; 
+                frontLevel = id; 
+                levelPreviewArray = NSArrayController; 
+                loadDocumentWindow = NSWindow; 
+                objectPreview = TRObjectView; 
+                objectPreviewArray = NSArrayController; 
+                oldSavePanelDelegate = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {loadNewLevel = id; placeCurrentObject = id; }; 
+            CLASS = TRPoserController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                camera = id; 
+                levelPreviewArray = NSArrayController; 
+                mainView = TRLevelView; 
+                objectPreview = TRObjectView; 
+                objectPreviewArray = NSArrayController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

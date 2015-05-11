@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = TRLevelView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {document = TRPoserDocument; }; 
+            SUPERCLASS = NSOpenGLView; 
+        }, 
+        {
+            CLASS = TRPoserDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {camera = id; mainView = TRLevelView; mainWindow = NSWindow; }; 
+            SUPERCLASS = NSDocument; 
+        }
+    ); 
+    IBVersion = 1; 
+}

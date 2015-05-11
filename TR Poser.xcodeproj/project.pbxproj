@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528F3D700A8D2FD9002C1619 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528F3D6E0A8D2FD9002C1619 /* Accelerate.framework */; };
+		528F3D710A8D2FD9002C1619 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528F3D6F0A8D2FD9002C1619 /* OpenGL.framework */; };
+		528F3D790A8D3019002C1619 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 528F3D780A8D3019002C1619 /* libz.dylib */; };
+		5292F2700BF47B1B0095ADB5 /* TRPoserDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5292F26F0BF47B1B0095ADB5 /* TRPoserDocument.m */; };
+		5292F2790BF47BE60095ADB5 /* TRPoserDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5292F2780BF47BE60095ADB5 /* TRPoserDocument.nib */; };
+		5292F2A70BF47D680095ADB5 /* TRPoserAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5292F2A50BF47D680095ADB5 /* TRPoserAppController.m */; };
+		52AC8AFB0BF34EAE00C588B6 /* TR4AnimatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AC8AFA0BF34EAE00C588B6 /* TR4AnimatedObject.m */; };
+		52E926520A69062B00818A90 /* MFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 52E926130A69062900818A90 /* MFunctions.c */; };
+		52E926530A69062B00818A90 /* NSImage_SubImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926170A69062900818A90 /* NSImage_SubImage.m */; };
+		52E926550A69062B00818A90 /* SimpleErrorCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9261B0A69062A00818A90 /* SimpleErrorCreation.m */; };
+		52E926560A69062B00818A90 /* TR1AnimatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9261D0A69062A00818A90 /* TR1AnimatedObject.m */; };
+		52E926570A69062B00818A90 /* TR1Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9261F0A69062A00818A90 /* TR1Level.m */; };
+		52E926580A69062B00818A90 /* TR1Mesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926210A69062A00818A90 /* TR1Mesh.m */; };
+		52E926590A69062B00818A90 /* TR1Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926230A69062A00818A90 /* TR1Room.m */; };
+		52E9265A0A69062B00818A90 /* TR2AnimatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926250A69062A00818A90 /* TR2AnimatedObject.m */; };
+		52E9265B0A69062B00818A90 /* TR2Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926270A69062A00818A90 /* TR2Level.m */; };
+		52E9265D0A69062B00818A90 /* TR2Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9262B0A69062A00818A90 /* TR2Room.m */; };
+		52E9265E0A69062B00818A90 /* TR3Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9262D0A69062A00818A90 /* TR3Level.m */; };
+		52E9265F0A69062B00818A90 /* TR3Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9262F0A69062A00818A90 /* TR3Room.m */; };
+		52E926600A69062B00818A90 /* TR4Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926310A69062A00818A90 /* TR4Level.m */; };
+		52E926610A69062B00818A90 /* TR4Mesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926330A69062A00818A90 /* TR4Mesh.m */; };
+		52E926620A69062B00818A90 /* TR4Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926350A69062A00818A90 /* TR4Room.m */; };
+		52E926670A69062B00818A90 /* TRLevelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9263F0A69062B00818A90 /* TRLevelData.m */; };
+		52E926680A69062B00818A90 /* TRLevelTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926410A69062B00818A90 /* TRLevelTexture.m */; };
+		52E926690A69062B00818A90 /* TRLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926430A69062B00818A90 /* TRLevelView.m */; };
+		52E9266A0A69062B00818A90 /* TRObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926450A69062B00818A90 /* TRObjectView.m */; };
+		52E9266B0A69062B00818A90 /* TRRagdollInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926470A69062B00818A90 /* TRRagdollInstance.m */; };
+		52E9266D0A69062B00818A90 /* TRRenderLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9264B0A69062B00818A90 /* TRRenderLevel.m */; };
+		52E9266E0A69062B00818A90 /* TRRenderMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9264D0A69062B00818A90 /* TRRenderMesh.m */; };
+		52E9266F0A69062B00818A90 /* TRRenderRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9264F0A69062B00818A90 /* TRRenderRoom.m */; };
+		52E926700A69062B00818A90 /* TRRoomViewing.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926510A69062B00818A90 /* TRRoomViewing.m */; };
+		52E926750A69066E00818A90 /* EasyCam.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E926720A69066E00818A90 /* EasyCam.m */; };
+		52E9B8750BFC929A00680E13 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9B8740BFC929A00680E13 /* ImageAndTextCell.m */; };
+		52E9B8C50BFCA9E400680E13 /* NSURLCompar.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E9B8C40BFCA9E400680E13 /* NSURLCompar.m */; };
+		52F58F680EB13AA200D6C25A /* TRRenderData.c in Sources */ = {isa = PBXBuildFile; fileRef = 52F58F670EB13AA200D6C25A /* TRRenderData.c */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* TR Poser_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TR Poser_Prefix.pch"; sourceTree = "<group>"; };
+		522095230CF1B63900DC7980 /* TRLaraInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRLaraInstance.h; sourceTree = "<group>"; wrapsLines = 1; };
+		522095240CF1B63900DC7980 /* TRLaraInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRLaraInstance.m; sourceTree = "<group>"; wrapsLines = 1; };
+		52274DA40C91C4D900E52212 /* TRSpriteSequenceInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSpriteSequenceInstance.h; sourceTree = "<group>"; };
+		52274DA50C91C4D900E52212 /* TRSpriteSequenceInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSpriteSequenceInstance.m; sourceTree = "<group>"; };
+		52274DD40C91C8D800E52212 /* TRVBORenderMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRVBORenderMesh.h; sourceTree = "<group>"; };
+		52274DD50C91C8D800E52212 /* TRVBORenderMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRVBORenderMesh.m; sourceTree = "<group>"; };
+		528F3D6E0A8D2FD9002C1619 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		528F3D6F0A8D2FD9002C1619 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		528F3D780A8D3019002C1619 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = /usr/lib/libz.dylib; sourceTree = "<absolute>"; };
+		5292F26E0BF47B1B0095ADB5 /* TRPoserDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPoserDocument.h; sourceTree = "<group>"; };
+		5292F26F0BF47B1B0095ADB5 /* TRPoserDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPoserDocument.m; sourceTree = "<group>"; wrapsLines = 1; };
+		5292F2780BF47BE60095ADB5 /* TRPoserDocument.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = TRPoserDocument.nib; sourceTree = "<group>"; };
+		5292F2A50BF47D680095ADB5 /* TRPoserAppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TRPoserAppController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		5292F2A60BF47D680095ADB5 /* TRPoserAppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRPoserAppController.h; sourceTree = "<group>"; };
+		52AC8AF90BF34EAE00C588B6 /* TR4AnimatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TR4AnimatedObject.h; sourceTree = "<group>"; };
+		52AC8AFA0BF34EAE00C588B6 /* TR4AnimatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TR4AnimatedObject.m; sourceTree = "<group>"; };
+		52E926130A69062900818A90 /* MFunctions.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = MFunctions.c; sourceTree = "<group>"; };
+		52E926140A69062900818A90 /* MFunctions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MFunctions.h; sourceTree = "<group>"; };
+		52E926150A69062900818A90 /* MTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MTypes.h; sourceTree = "<group>"; };
+		52E926160A69062900818A90 /* NSImage_SubImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSImage_SubImage.h; sourceTree = "<group>"; };
+		52E926170A69062900818A90 /* NSImage_SubImage.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NSImage_SubImage.m; sourceTree = "<group>"; };
+		52E9261A0A69062A00818A90 /* SimpleErrorCreation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SimpleErrorCreation.h; sourceTree = "<group>"; };
+		52E9261B0A69062A00818A90 /* SimpleErrorCreation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SimpleErrorCreation.m; sourceTree = "<group>"; };
+		52E9261C0A69062A00818A90 /* TR1AnimatedObject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR1AnimatedObject.h; sourceTree = "<group>"; };
+		52E9261D0A69062A00818A90 /* TR1AnimatedObject.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR1AnimatedObject.m; sourceTree = "<group>"; };
+		52E9261E0A69062A00818A90 /* TR1Level.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR1Level.h; sourceTree = "<group>"; wrapsLines = 1; };
+		52E9261F0A69062A00818A90 /* TR1Level.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR1Level.m; sourceTree = "<group>"; };
+		52E926200A69062A00818A90 /* TR1Mesh.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR1Mesh.h; sourceTree = "<group>"; };
+		52E926210A69062A00818A90 /* TR1Mesh.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR1Mesh.m; sourceTree = "<group>"; };
+		52E926220A69062A00818A90 /* TR1Room.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR1Room.h; sourceTree = "<group>"; };
+		52E926230A69062A00818A90 /* TR1Room.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR1Room.m; sourceTree = "<group>"; };
+		52E926240A69062A00818A90 /* TR2AnimatedObject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR2AnimatedObject.h; sourceTree = "<group>"; };
+		52E926250A69062A00818A90 /* TR2AnimatedObject.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR2AnimatedObject.m; sourceTree = "<group>"; };
+		52E926260A69062A00818A90 /* TR2Level.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR2Level.h; sourceTree = "<group>"; };
+		52E926270A69062A00818A90 /* TR2Level.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR2Level.m; sourceTree = "<group>"; };
+		52E9262A0A69062A00818A90 /* TR2Room.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR2Room.h; sourceTree = "<group>"; };
+		52E9262B0A69062A00818A90 /* TR2Room.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR2Room.m; sourceTree = "<group>"; };
+		52E9262C0A69062A00818A90 /* TR3Level.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR3Level.h; sourceTree = "<group>"; };
+		52E9262D0A69062A00818A90 /* TR3Level.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR3Level.m; sourceTree = "<group>"; };
+		52E9262E0A69062A00818A90 /* TR3Room.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR3Room.h; sourceTree = "<group>"; };
+		52E9262F0A69062A00818A90 /* TR3Room.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR3Room.m; sourceTree = "<group>"; };
+		52E926300A69062A00818A90 /* TR4Level.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR4Level.h; sourceTree = "<group>"; };
+		52E926310A69062A00818A90 /* TR4Level.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR4Level.m; sourceTree = "<group>"; };
+		52E926320A69062A00818A90 /* TR4Mesh.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR4Mesh.h; sourceTree = "<group>"; };
+		52E926330A69062A00818A90 /* TR4Mesh.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR4Mesh.m; sourceTree = "<group>"; };
+		52E926340A69062A00818A90 /* TR4Room.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR4Room.h; sourceTree = "<group>"; };
+		52E926350A69062A00818A90 /* TR4Room.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR4Room.m; sourceTree = "<group>"; };
+		52E926360A69062A00818A90 /* TR5AnimatedObject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR5AnimatedObject.h; sourceTree = "<group>"; };
+		52E926370A69062A00818A90 /* TR5AnimatedObject.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR5AnimatedObject.m; sourceTree = "<group>"; };
+		52E926380A69062A00818A90 /* TR5Level.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR5Level.h; sourceTree = "<group>"; };
+		52E926390A69062A00818A90 /* TR5Level.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR5Level.m; sourceTree = "<group>"; };
+		52E9263A0A69062A00818A90 /* TR5Room.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TR5Room.h; sourceTree = "<group>"; };
+		52E9263B0A69062B00818A90 /* TR5Room.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TR5Room.m; sourceTree = "<group>"; };
+		52E9263E0A69062B00818A90 /* TRLevelData.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRLevelData.h; sourceTree = "<group>"; };
+		52E9263F0A69062B00818A90 /* TRLevelData.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TRLevelData.m; sourceTree = "<group>"; };
+		52E926400A69062B00818A90 /* TRLevelTexture.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRLevelTexture.h; sourceTree = "<group>"; };
+		52E926410A69062B00818A90 /* TRLevelTexture.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TRLevelTexture.m; sourceTree = "<group>"; };
+		52E926420A69062B00818A90 /* TRLevelView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRLevelView.h; sourceTree = "<group>"; };
+		52E926430A69062B00818A90 /* TRLevelView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TRLevelView.m; sourceTree = "<group>"; };
+		52E926440A69062B00818A90 /* TRObjectView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRObjectView.h; sourceTree = "<group>"; };
+		52E926450A69062B00818A90 /* TRObjectView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TRObjectView.m; sourceTree = "<group>"; };
+		52E926460A69062B00818A90 /* TRRagdollInstance.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRRagdollInstance.h; sourceTree = "<group>"; };
+		52E926470A69062B00818A90 /* TRRagdollInstance.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TRRagdollInstance.m; sourceTree = "<group>"; };
+		52E926480A69062B00818A90 /* TRRawViewCam.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = TRRawViewCam.c; sourceTree = "<group>"; };
+		52E926490A69062B00818A90 /* TRRawViewCam.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRRawViewCam.h; sourceTree = "<group>"; };
+		52E9264A0A69062B00818A90 /* TRRenderLevel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRRenderLevel.h; sourceTree = "<group>"; };
+		52E9264B0A69062B00818A90 /* TRRenderLevel.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TRRenderLevel.m; sourceTree = "<group>"; };
+		52E9264C0A69062B00818A90 /* TRRenderMesh.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRRenderMesh.h; sourceTree = "<group>"; };
+		52E9264D0A69062B00818A90 /* TRRenderMesh.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TRRenderMesh.m; sourceTree = "<group>"; };
+		52E9264E0A69062B00818A90 /* TRRenderRoom.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRRenderRoom.h; sourceTree = "<group>"; };
+		52E9264F0A69062B00818A90 /* TRRenderRoom.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TRRenderRoom.m; sourceTree = "<group>"; wrapsLines = 1; };
+		52E926500A69062B00818A90 /* TRRoomViewing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRRoomViewing.h; sourceTree = "<group>"; };
+		52E926510A69062B00818A90 /* TRRoomViewing.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TRRoomViewing.m; sourceTree = "<group>"; };
+		52E926710A69066E00818A90 /* EasyCam.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EasyCam.h; sourceTree = "<group>"; wrapsLines = 1; };
+		52E926720A69066E00818A90 /* EasyCam.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = EasyCam.m; sourceTree = "<group>"; };
+		52E9B8730BFC929A00680E13 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
+		52E9B8740BFC929A00680E13 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
+		52E9B8C30BFCA9E400680E13 /* NSURLCompar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLCompar.h; sourceTree = "<group>"; };
+		52E9B8C40BFCA9E400680E13 /* NSURLCompar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLCompar.m; sourceTree = "<group>"; };
+		52F58F660EB13AA200D6C25A /* TRRenderData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRenderData.h; sourceTree = "<group>"; };
+		52F58F670EB13AA200D6C25A /* TRRenderData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TRRenderData.c; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TR Poser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TR Poser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				528F3D700A8D2FD9002C1619 /* Accelerate.framework in Frameworks */,
+				528F3D710A8D2FD9002C1619 /* OpenGL.framework in Frameworks */,
+				528F3D790A8D3019002C1619 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				52E926130A69062900818A90 /* MFunctions.c */,
+				52E926140A69062900818A90 /* MFunctions.h */,
+				52E926150A69062900818A90 /* MTypes.h */,
+				52E926160A69062900818A90 /* NSImage_SubImage.h */,
+				52E926170A69062900818A90 /* NSImage_SubImage.m */,
+				52E9261A0A69062A00818A90 /* SimpleErrorCreation.h */,
+				52E9261B0A69062A00818A90 /* SimpleErrorCreation.m */,
+				52E9261C0A69062A00818A90 /* TR1AnimatedObject.h */,
+				52E9261D0A69062A00818A90 /* TR1AnimatedObject.m */,
+				52E9261E0A69062A00818A90 /* TR1Level.h */,
+				52E9261F0A69062A00818A90 /* TR1Level.m */,
+				52E926200A69062A00818A90 /* TR1Mesh.h */,
+				52E926210A69062A00818A90 /* TR1Mesh.m */,
+				52E926220A69062A00818A90 /* TR1Room.h */,
+				52E926230A69062A00818A90 /* TR1Room.m */,
+				52E926240A69062A00818A90 /* TR2AnimatedObject.h */,
+				52E926250A69062A00818A90 /* TR2AnimatedObject.m */,
+				52E926260A69062A00818A90 /* TR2Level.h */,
+				52E926270A69062A00818A90 /* TR2Level.m */,
+				52E9262A0A69062A00818A90 /* TR2Room.h */,
+				52E9262B0A69062A00818A90 /* TR2Room.m */,
+				52E9262C0A69062A00818A90 /* TR3Level.h */,
+				52E9262D0A69062A00818A90 /* TR3Level.m */,
+				52E9262E0A69062A00818A90 /* TR3Room.h */,
+				52E9262F0A69062A00818A90 /* TR3Room.m */,
+				52E926300A69062A00818A90 /* TR4Level.h */,
+				52E926310A69062A00818A90 /* TR4Level.m */,
+				52E926320A69062A00818A90 /* TR4Mesh.h */,
+				52E926330A69062A00818A90 /* TR4Mesh.m */,
+				52E926340A69062A00818A90 /* TR4Room.h */,
+				52E926350A69062A00818A90 /* TR4Room.m */,
+				52E926360A69062A00818A90 /* TR5AnimatedObject.h */,
+				52E926370A69062A00818A90 /* TR5AnimatedObject.m */,
+				52E926380A69062A00818A90 /* TR5Level.h */,
+				52E926390A69062A00818A90 /* TR5Level.m */,
+				52E9263A0A69062A00818A90 /* TR5Room.h */,
+				52E9263B0A69062B00818A90 /* TR5Room.m */,
+				52E9263E0A69062B00818A90 /* TRLevelData.h */,
+				52E9263F0A69062B00818A90 /* TRLevelData.m */,
+				52E926400A69062B00818A90 /* TRLevelTexture.h */,
+				52E926410A69062B00818A90 /* TRLevelTexture.m */,
+				52E926420A69062B00818A90 /* TRLevelView.h */,
+				52E926430A69062B00818A90 /* TRLevelView.m */,
+				52E926440A69062B00818A90 /* TRObjectView.h */,
+				52E926450A69062B00818A90 /* TRObjectView.m */,
+				52E926460A69062B00818A90 /* TRRagdollInstance.h */,
+				52E926470A69062B00818A90 /* TRRagdollInstance.m */,
+				52E926480A69062B00818A90 /* TRRawViewCam.c */,
+				52E926490A69062B00818A90 /* TRRawViewCam.h */,
+				52E9264A0A69062B00818A90 /* TRRenderLevel.h */,
+				52E9264B0A69062B00818A90 /* TRRenderLevel.m */,
+				52E9264C0A69062B00818A90 /* TRRenderMesh.h */,
+				52E9264D0A69062B00818A90 /* TRRenderMesh.m */,
+				52E9264E0A69062B00818A90 /* TRRenderRoom.h */,
+				52E9264F0A69062B00818A90 /* TRRenderRoom.m */,
+				52E926500A69062B00818A90 /* TRRoomViewing.h */,
+				52E926510A69062B00818A90 /* TRRoomViewing.m */,
+				52E926710A69066E00818A90 /* EasyCam.h */,
+				52E926720A69066E00818A90 /* EasyCam.m */,
+				52AC8AF90BF34EAE00C588B6 /* TR4AnimatedObject.h */,
+				52AC8AFA0BF34EAE00C588B6 /* TR4AnimatedObject.m */,
+				5292F26E0BF47B1B0095ADB5 /* TRPoserDocument.h */,
+				5292F26F0BF47B1B0095ADB5 /* TRPoserDocument.m */,
+				5292F2A60BF47D680095ADB5 /* TRPoserAppController.h */,
+				5292F2A50BF47D680095ADB5 /* TRPoserAppController.m */,
+				52E9B8730BFC929A00680E13 /* ImageAndTextCell.h */,
+				52E9B8740BFC929A00680E13 /* ImageAndTextCell.m */,
+				52274DA40C91C4D900E52212 /* TRSpriteSequenceInstance.h */,
+				52274DA50C91C4D900E52212 /* TRSpriteSequenceInstance.m */,
+				52274DD40C91C8D800E52212 /* TRVBORenderMesh.h */,
+				52274DD50C91C8D800E52212 /* TRVBORenderMesh.m */,
+				522095230CF1B63900DC7980 /* TRLaraInstance.h */,
+				522095240CF1B63900DC7980 /* TRLaraInstance.m */,
+				52F58F660EB13AA200D6C25A /* TRRenderData.h */,
+				52F58F670EB13AA200D6C25A /* TRRenderData.c */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				528F3D780A8D3019002C1619 /* libz.dylib */,
+				528F3D6E0A8D2FD9002C1619 /* Accelerate.framework */,
+				528F3D6F0A8D2FD9002C1619 /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TR Poser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TR Poser */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "TR Poser";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TR Poser_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				52E9B8C30BFCA9E400680E13 /* NSURLCompar.h */,
+				52E9B8C40BFCA9E400680E13 /* NSURLCompar.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5292F2780BF47BE60095ADB5 /* TRPoserDocument.nib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TR Poser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TR Poser" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TR Poser";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "TR Poser";
+			productReference = 8D1107320486CEB800E47090 /* TR Poser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TR Poser" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TR Poser */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TR Poser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				5292F2790BF47BE60095ADB5 /* TRPoserDocument.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				52E926520A69062B00818A90 /* MFunctions.c in Sources */,
+				52E926530A69062B00818A90 /* NSImage_SubImage.m in Sources */,
+				52E926550A69062B00818A90 /* SimpleErrorCreation.m in Sources */,
+				52E926560A69062B00818A90 /* TR1AnimatedObject.m in Sources */,
+				52E926570A69062B00818A90 /* TR1Level.m in Sources */,
+				52E926580A69062B00818A90 /* TR1Mesh.m in Sources */,
+				52E926590A69062B00818A90 /* TR1Room.m in Sources */,
+				52E9265A0A69062B00818A90 /* TR2AnimatedObject.m in Sources */,
+				52E9265B0A69062B00818A90 /* TR2Level.m in Sources */,
+				52E9265D0A69062B00818A90 /* TR2Room.m in Sources */,
+				52E9265E0A69062B00818A90 /* TR3Level.m in Sources */,
+				52E9265F0A69062B00818A90 /* TR3Room.m in Sources */,
+				52E926600A69062B00818A90 /* TR4Level.m in Sources */,
+				52E926610A69062B00818A90 /* TR4Mesh.m in Sources */,
+				52E926620A69062B00818A90 /* TR4Room.m in Sources */,
+				52E926670A69062B00818A90 /* TRLevelData.m in Sources */,
+				52E926680A69062B00818A90 /* TRLevelTexture.m in Sources */,
+				52E926690A69062B00818A90 /* TRLevelView.m in Sources */,
+				52E9266A0A69062B00818A90 /* TRObjectView.m in Sources */,
+				52E9266B0A69062B00818A90 /* TRRagdollInstance.m in Sources */,
+				52E9266D0A69062B00818A90 /* TRRenderLevel.m in Sources */,
+				52E9266E0A69062B00818A90 /* TRRenderMesh.m in Sources */,
+				52E9266F0A69062B00818A90 /* TRRenderRoom.m in Sources */,
+				52E926700A69062B00818A90 /* TRRoomViewing.m in Sources */,
+				52E926750A69066E00818A90 /* EasyCam.m in Sources */,
+				52AC8AFB0BF34EAE00C588B6 /* TR4AnimatedObject.m in Sources */,
+				5292F2700BF47B1B0095ADB5 /* TRPoserDocument.m in Sources */,
+				5292F2A70BF47D680095ADB5 /* TRPoserAppController.m in Sources */,
+				52E9B8750BFC929A00680E13 /* ImageAndTextCell.m in Sources */,
+				52E9B8C50BFCA9E400680E13 /* NSURLCompar.m in Sources */,
+				52F58F680EB13AA200D6C25A /* TRRenderData.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "TR Poser";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = "TR Poser";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-Wnewline-eof",
+				);
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-Wnewline-eof",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TR Poser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TR Poser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
